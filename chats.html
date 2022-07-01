@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - kokoa talk</title>
+    <title>Chats - kokoa talk</title>
     
 </head>
 <body>
@@ -27,57 +27,42 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">친구</h1>
+        <h1 class="screen-header__title">채팅</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></i></span>          
         </div>
+
     </header>
 
-    <a id="friend-display-link">
-        <i class="fas fa-info-circle"></i>친구 이름 표시
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="friends-screen">
-    <div class="user-component">
+    <main class="main-screen">
+        <a href="chat.html">
+        <div class="user-component">
         <div class="user-component__column">
             <img src="screenshots/회윤.jpg" 
-                    class="user-component__avatar user-component__avatar--xl">
-            <div class="user-component__text"></div>
+                    class="user-component__avatar user-component__avatar">
+            <div class="user-component__text">
             <h4 class="user-component__title">회윤</h4>
-        </div>
-        <div class="user-component__subtitile"></div>
-    </div>
-    <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-            <span>채널</span>
-            <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="screenshots/10.png" class="user-component__avatar user-component__avatar--sm">
-                <div class="user-component__text"></div>
-                <h4 class="user-component__title user-component__title--not-bold">채널</h4>
-            </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
+            <h6 class="user-component__subtitle">Please check My KoKoa Account Info</h6>
         </div>
     </div>
+    <div class="user-component__column">
+        <span class="user-component__time">21:22</span>
+        <div class="badge">1</div>
+        </div>
+        </div>
+    </a>
     </main>
 <nav class="nav">
     <ul class="nav__list">
         <li class="nav__btn">   
-            <a class="nav__link"href="friend.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <a class="nav__link"href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
         <li class="nav__btn">   
             <a class="nav__link" href="chats.html"> 
                 <span class="nav__notifaication badge">1</span>
-                <i class="far fa-comment fa-2x"></i></a></li>
+                <i class="fas fa-comment fa-2x"></i></a></li>
         <li class="nav__btn">
             <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
         <li class="nav__btn">
@@ -86,15 +71,9 @@
                 <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
     </ul>
 </nav>
-    <div id="splash-screen">
-        <i class="fas fa-comment fa-2x"></i>
-    </div>
-    
 
-
-    <script src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous"></script>  
-
+<script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>  
 </body>
 
 </html>
